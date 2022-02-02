@@ -101,7 +101,26 @@ p {
   line-height: 25px;
   color: #7a7a7a;
 }
-
+/* test */
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.food {
+  border: 10px solid #3B566E;
+}
+.drink {
+  border: 10px solid #3B566E;
+}
+.btnBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 190px;
+  margin-right: 190px;
+}
 /* 
 ---------------------------------------------
 global styles
@@ -626,9 +645,9 @@ banner
   top: 50%;
   transform: translate(-50%,-50%);
 }
-
+/* changed margin-top to 50px from 0 */
 .main-banner .caption h6 {
-  margin-top: 0px;
+  margin-top: 50px;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 800;
