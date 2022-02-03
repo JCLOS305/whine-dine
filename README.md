@@ -13,6 +13,6 @@ Whine? Dine. is an application designed to help "undecidable millennials" come t
 3. Google
 4. Youtube
 5. Teacher Assistants: Jocelyn Remington, Tim Sherry, Jordan Masone, Cristian Custodio.
-6. Instructor: Felicia O'Gara
+6. Instructor: Felicia O'Garro
 
 # Link
