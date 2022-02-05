@@ -35,19 +35,19 @@ body{
 .food-container{
     min-height: 10vh;
 }
-.meal-wrapper{
+.drink-wrapper{
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
 }
-.meal-search{
+.drink-search{
     margin: 2rem 0;
 }
-.meal-search cite{
+.drink-search cite{
     font-size: 1rem;
 }
-.meal-search-box{
+.drink-search-box{
     margin: 1.2rem 0;
     display: flex;
     align-items: stretch;
@@ -87,13 +87,13 @@ body{
 .search-btn:hover{
     background: var(--tenne-tawny-dark);
 }
-.meal-result{
+.drink-result{
     margin-top: 4rem;
 }
-#meal{
+#drink{
     margin: 2.4rem 0;
 }
-.meal-item{
+.drink-item{
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -103,14 +103,14 @@ body{
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
     margin: 2rem 0;
 }
-.meal-img img{
+.drink-img img{
     width: 100%;
     display: block;
 }
-.meal-name{
+.drink-name{
     padding: 1.5rem 0.5rem;
 }
-.meal-name h3{
+.drink-name h3{
     font-size: 1.4rem;
 }
 .recipe-btn{
@@ -139,8 +139,8 @@ body{
     background: var(--tenne-tawny-dark);
 }
 
-/* meal details */
-.meal-details{
+/* drink details */
+.drink-details{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -162,10 +162,10 @@ body{
     display: none;
     padding: 2rem 0;
 }
-.meal-details::-webkit-scrollbar{
+.drink-details::-webkit-scrollbar{
     width: 10px;
 }
-.meal-details::-webkit-scrollbar-thumb{
+.drink-details::-webkit-scrollbar-thumb{
     background: #f0f0f0;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -180,10 +180,10 @@ body{
     display: block;
 }
 
-.meal-details-content{
+.drink-details-content{
     margin: 2rem;
 }
-.meal-details-content p:not(.recipe-category){
+.drink-details-content p:not(.recipe-category){
     padding: 1rem 0;
 }
 .recipe-close-btn{
@@ -236,7 +236,7 @@ body{
 .recipe-instruct{
     padding: 1rem 0;
 }
-.recipe-meal-img img{
+.recipe-drink-img img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -281,7 +281,7 @@ body{
 
 /* Media Queries */
 @media screen and (min-width: 600px){
-    .meal-search-box{
+    .drink-search-box{
         width: 540px;
         margin-left: auto;
         margin-right: auto;
@@ -289,21 +289,21 @@ body{
 }
 
 @media screen and (min-width: 768px){
-    #meal{
+    #drink{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-    .meal-item{
+    .drink-item{
         margin: 0;
     }
-    .meal-details{
+    .drink-details{
         width: 700px;
     }
 }
 
 @media screen and (min-width: 992px){
-    #meal{
+    #drink{
         grid-template-columns: repeat(3, 1fr);
     }
 }
