@@ -663,6 +663,7 @@ banner
   left: 35%;
   top:30%;
   transform: translate(-30%,-30%);
+  margin-top: 25px;
 }
 /* changed margin-top to 50px from 0 */
 .main-banner .caption h6 {
@@ -684,6 +685,7 @@ banner
   color: #fff;
   letter-spacing: 1px;
 }
+
 
 img:hover{
   transform: scale(1.1);
