@@ -107,7 +107,6 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 40px;
-  overflow-wrap: break-word;
 }
 .food {
   border: 10px solid #3B566E;
@@ -686,7 +685,6 @@ banner
   color: #fff;
   letter-spacing: 1px;
 }
-
 
 img:hover{
   transform: scale(1.1);
