@@ -52,6 +52,12 @@ body{
     display: flex;
     align-items: stretch;
 }
+.food-search-form{
+    display: inline-flex;
+    margin-left: 5px;
+    width: 600px;
+}
+
 .search-control,
 .search-btn{
     width: 100%;

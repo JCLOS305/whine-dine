@@ -52,6 +52,11 @@ body{
     display: flex;
     align-items: stretch;
 }
+.drink-search-form {
+    display: inline-flex;
+    margin-left: 5px;
+    width: 600px;
+}
 .search-control,
 .search-btn{
     width: 100%;
