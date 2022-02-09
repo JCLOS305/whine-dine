@@ -57,7 +57,24 @@ body{
     margin-left: 5px;
     width: 600px;
 }
-
+.btn-outline-danger{
+    border: solid 2px red;
+    color: red;
+    background-color: transparent;
+    padding: 10px;
+    box-shadow:  1px 1px 5px red;
+}
+.btn-outline-danger:hover{
+    border: solid 2px red;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    transform: scale(1.1);
+    box-shadow:  1px 1px 5px red;
+}
+.recent-searches{
+    font-weight: 700;
+}
 .search-control,
 .search-btn{
     width: 100%;
