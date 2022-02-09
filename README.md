@@ -6,7 +6,7 @@ Whine? Dine. is an application designed to help “undecidable millennials” co
 
 # Usage
 
-![whine_dine](Whine_Dine!.gif) / ! [](Whine_Dine!.gif)
+![whine_dine](./assets/images/drink.jpg)
 
 # Resources
 
