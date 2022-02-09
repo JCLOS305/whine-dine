@@ -25,8 +25,8 @@ Whine? Dine. is an application designed to help "undecidable millennials" come t
 
 ![Jeancarlos](https://img.shields.io/badge/Jeancarlos%20of-Miami-blue)
 
-![UOM](https://img.shields.io/badge/Francella%20of-Miami-pink)
+![Franella](https://img.shields.io/badge/Francella%20of-Miami-pink)
 
-![UOM](https://img.shields.io/badge/Julian%20of-Miami-red)
+![Julian](https://img.shields.io/badge/Julian%20of-Miami-red)
 
-![UOM](https://img.shields.io/badge/Wilmer%20of-Miami-green)
+![Wilmer](https://img.shields.io/badge/Wilmer%20of-Miami-green)
