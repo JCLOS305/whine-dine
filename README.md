@@ -16,3 +16,9 @@ Whine? Dine. is an application designed to help "undecidable millennials" come t
 6. Instructor: Felicia O'Garro
 
 # Link
+
+
+# Badges
+
+
+![UOM](https://img.shields.io/badge/University%20of-Miami-orange)
