@@ -900,18 +900,3 @@ responsive
     margin-left: 130px;
   }
 }
-
-@media (max-width: 980px) {
-  .main-banner .caption h2 {
-    justify-content: center;
-    font-size: 50px;
-  }
-  .containers {
-    justify-content: center;
-  }
-}
-
-@viewport {
-  width: device-width;
-  zoom: 1;
-}
