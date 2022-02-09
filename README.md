@@ -2,9 +2,11 @@
 
 # Description
 
-Whine? Dine. is an application designed to help "undecidable millennials" come to a conclusion on what's for dinner. A 'surprise' me button is interactive with users and once button is clicked for either the food or drink option, a random dish or drink will be generated for you.
+Whine? Dine. is an application designed to help “undecidable millennials” come to a conclusion on what’s for dinner. The app uses API’s to randomly generate dinner combos for users and helps you search for drink and food recipes by keywords!
 
 # Usage
+
+![whine_dine](Whine_Dine!.gif) / ! [](Whine_Dine!.gif)
 
 # Resources
 
