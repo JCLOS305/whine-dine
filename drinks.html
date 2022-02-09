@@ -92,10 +92,12 @@
                             
                     
                             <div class = "drink-search-box">
+                              <form id="form">
                               <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
                               <button type = "submit" class = "search-btn btn" id = "search-btn">
                                 <i class = "fas fa-search"></i>
                               </button>
+                              </form>
                             </div>
                           </div>
                     
@@ -106,6 +108,14 @@
         </div>
         </div>
         </div>
+        <!-- delete search history -->
+      <button type="button" id="delete" class="btn btn-outline-danger" style="display: block;margin: 1rem auto;">Delete Searches</button>
+    
+      <h2 style="font-size: 20px; padding: 1rem;">Recent Searches</h2>
+    
+      <ul class="list-group list-group-flush" id="ul">
+    
+      </ul>
         <!-- ***** Main Banner Area End ***** -->
         <div class = "drink-result">
             <h2 class = "title">Your Search Results:</h2>
