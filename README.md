@@ -22,4 +22,3 @@ Whine? Dine. is an application designed to help “undecidable millennials” co
 # Badges
 
 ![UOM](https://img.shields.io/badge/University%20of-Miami-orange)
-<<<<<<< HEAD
