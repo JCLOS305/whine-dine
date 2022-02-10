@@ -2,12 +2,20 @@
 
 # Description
 
+<<<<<<< HEAD
 Whine? Dine. is an application designed to help "undecidable millennials" come to a conclusion on what's for dinner. The app uses API's to randomly generate dinner combos for users and helps you search for drink and food recipes by keywords!
 
 # Usage
 
 ![whine_dine](Whine_Dine!.gif) / ! [](Whine_Dine!.gif)
 
+=======
+Whine? Dine. is an application designed to help “undecidable millennials” come to a conclusion on what’s for dinner. The app uses API’s to randomly generate dinner combos for users and helps you search for drink and food recipes by keywords!
+
+# Usage
+
+![whine_dine](https://github.com/fraancellaa/whine-dine/blob/main/assets/images/Whine_%20Dine.gif?raw=true)
+>>>>>>> 8130304eeb63d08d22776cf50aeec735687c8f8e
 # Resources
 
 1. Module 5-6 - UM CANVAS
