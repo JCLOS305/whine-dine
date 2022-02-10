@@ -2,9 +2,7 @@
 	
 	"use strict";
 
-	$(function() {
-        $("#tabs").tabs();
-    });
+
 
 	$(window).scroll(function() {
 	  var scroll = $(window).scrollTop();
@@ -42,9 +40,7 @@
 	mobileNav();
 
 
-	// Scroll animation init
-	window.sr = new scrollReveal();
-	
+
 
 	// Menu Dropdown Toggle
 	if($('.menu-trigger').length){
@@ -123,4 +119,3 @@
 
 
 })(window.jQuery);
-
