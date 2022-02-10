@@ -7,6 +7,7 @@ Whine? Dine. is an application designed to help “undecidable millennials” co
 # Usage
 
 ![whine_dine](https://github.com/fraancellaa/whine-dine/blob/main/assets/images/Whine_%20Dine.gif?raw=true)
+
 # Resources
 
 1. Module 5-6 - UM CANVAS
@@ -18,14 +19,17 @@ Whine? Dine. is an application designed to help “undecidable millennials” co
 
 # Link
 
+# <<<<<<< HEAD
 
-<<<<<<< HEAD
 # Badges
 
-
 ![UOM](https://img.shields.io/badge/University%20of-Miami-orange)
-=======
-handle errors(drink not found)
-fix mobile version
-fix css and media queries
->>>>>>> 9560bc031ce18d5432f51811b14b3afc3b12bc16
+<<<<<<< HEAD
+
+![Jeancarlos](https://img.shields.io/badge/Jeancarlos%20of-Miami-blue)
+
+![Franella](https://img.shields.io/badge/Francella%20of-Miami-pink)
+
+![Julian](https://img.shields.io/badge/Julian%20of-Miami-red)
+
+# ![Wilmer](https://img.shields.io/badge/Wilmer%20of-Miami-green)

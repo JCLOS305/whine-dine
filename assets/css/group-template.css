@@ -1,5 +1,4 @@
 /*
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -15,7 +14,6 @@ Table of contents
 10. preloader
 11. search
 12. portfolio
-
 --------------------------------------------- */
 /* 
 ---------------------------------------------
@@ -28,10 +26,64 @@ font & reset css
 reset
 --------------------------------------------- 
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -59,13 +111,20 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -73,8 +132,9 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Poppins', sans-serif;
+html,
+body {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -87,7 +147,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -109,10 +174,10 @@ p {
   padding: 40px;
 }
 .food {
-  border: 10px solid #3B566E;
+  border: 10px solid #3b566e;
 }
 .drink {
-  border: 10px solid #3B566E;
+  border: 10px solid #3b566e;
 }
 .btnBox {
   display: flex;
@@ -129,7 +194,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ::selection {
@@ -143,7 +208,8 @@ body {
 }
 
 @media (max-width: 991px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
   .mobile-top-fix {
@@ -200,13 +266,12 @@ body {
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .main-button a:hover {
   background-color: #f9735b;
 }
-
 
 /* 
 ---------------------------------------------
@@ -214,18 +279,18 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgba(250,250,250,0.99) !important;
-  height: 80px!important;
-  position: fixed!important;
+  background: rgba(250, 250, 250, 0.99) !important;
+  height: 80px !important;
+  position: fixed !important;
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
 }
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #232d39!important;
+  color: #232d39 !important;
 }
 
 .background-header .main-nav .nav li:last-child a {
@@ -233,29 +298,29 @@ header
 }
 
 .background-header .main-nav .nav li:last-child a:hover {
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ed563b!important;
+  color: #ed563b !important;
 }
 
 .background-header .nav li a.active {
-  color: #ed563b!important;
+  color: #ed563b !important;
 }
 
 .header-area {
-  position:absolute;
+  position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 100;
   height: 80px;
-  background: rgba(250,250,250,0.1);
-  -webkit-transition: all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
-  transition: all .5s ease 0s;
+  background: rgba(250, 250, 250, 0.1);
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .header-area .main-nav {
@@ -331,7 +396,7 @@ header
   font-weight: 400;
   letter-spacing: 0px;
   text-transform: uppercase;
-  transition: all .3s;
+  transition: all 0.3s;
   height: auto;
   line-height: 20px;
   border-radius: 10px;
@@ -346,13 +411,11 @@ header
   font-weight: 400;
   letter-spacing: 0px;
   text-transform: uppercase;
-  transition: all .3s;
+  transition: all 0.3s;
   height: auto;
   line-height: 20px;
   border-radius: 10px;
 }
-
-
 
 .header-area .main-nav .nav li:last-child a:hover {
   background-color: #f9735b;
@@ -361,13 +424,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ed563b!important;
+  color: #ed563b !important;
   opacity: 1;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ed563b!important;
+  color: #ed563b !important;
   opacity: 1;
 }
 
@@ -510,7 +573,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ed563b!important;
+    color: #ed563b !important;
     opacity: 1;
   }
   .header-area {
@@ -551,12 +614,12 @@ header
     color: #fff;
   }
   .header-area .main-nav .nav li:last-child a {
-    background-color: #ed563b!important;
+    background-color: #ed563b !important;
   }
   .header-area .main-nav .nav li:last-child a:hover,
   .header-area .main-nav .nav li:last-child:hover a {
-    background-color: #ed563b!important;
-    color: #fff!important;
+    background-color: #ed563b !important;
+    color: #fff !important;
   }
   .header-area.header-sticky .nav {
     margin-top: 80px !important;
@@ -577,11 +640,11 @@ header
     color: #232d39 !important;
   }
   .header-area .main-nav .nav li:last-child a {
-    color: #fff!important;
+    color: #fff !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ed563b!important;
+    color: #ed563b !important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -606,12 +669,13 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #3b566e;
     right: 25px;
     font-size: 14px;
     top: 15px;
   }
-  .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
+  .header-area .main-nav .nav li.submenu:hover ul,
+  .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
 }
@@ -621,7 +685,6 @@ header
     display: flex !important;
   }
 }
-
 
 /* 
 ---------------------------------------------
@@ -634,25 +697,25 @@ banner
 }
 
 #bg-video {
-    min-width: 100%;
-    min-height: 100vh;
-    max-width: 100%;
-    max-height: 100vh;
-    object-fit: cover;
-    z-index: -1;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #bg-video::-webkit-media-controls {
-    display: none !important;
+  display: none !important;
 }
 
 .video-overlay {
-    position: absolute;
-    background-color: rgba(35,45,57,0.8);
-    top: 0;
-    left: 0;
-    bottom: 7px;
-    width: 100%;
+  position: absolute;
+  background-color: rgba(35, 45, 57, 0.8);
+  top: 0;
+  left: 0;
+  bottom: 7px;
+  width: 100%;
 }
 
 .main-banner .caption {
@@ -660,8 +723,8 @@ banner
   position: absolute;
   width: 80%;
   left: 35%;
-  top:30%;
-  transform: translate(-30%,-30%);
+  top: 30%;
+  transform: translate(-30%, -30%);
   margin-top: 25px;
 }
 /* changed margin-top to 50px from 0 */
@@ -693,7 +756,7 @@ banner
   border-radius: 20px;
 }
 /* image card containers */
-.containers{
+.containers {
   margin-bottom: 100px;
   display: flex;
   align-items: center;
@@ -702,7 +765,6 @@ banner
 }
 /* Image reveal text styling */
 .container .card .slide {
-
   width: 300px;
 
   height: 200px;
@@ -712,7 +774,6 @@ banner
 }
 
 .container .card .slide.slide1 {
-
   position: relative;
 
   display: flex;
@@ -723,19 +784,15 @@ banner
 
   z-index: 1;
 
-  transition: .7s;
+  transition: 0.7s;
 
   transform: translateY(100px);
-
 }
-.container .card:hover .slide.slide1{
-
+.container .card:hover .slide.slide1 {
   transform: translateY(0px);
-
 }
 
 .container .card .slide.slide2 {
-
   position: relative;
 
   display: flex;
@@ -748,22 +805,18 @@ banner
 
   box-sizing: border-box;
 
-  transition: .8s;
+  transition: 0.8s;
 
   transform: translateY(-100px);
 
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
-.container .card:hover .slide.slide2{
-
+.container .card:hover .slide.slide2 {
   transform: translateY(0);
-
 }
 
-.container .card .slide.slide2::after{
-
+.container .card .slide.slide2::after {
   content: "";
 
   position: absolute;
@@ -781,11 +834,9 @@ banner
   transform: translateX(-50%);
 
   background: #ed563b;
-
 }
 
 .container .card .slide.slide2 .content p {
-
   margin: 0;
 
   padding: 5px;
@@ -798,7 +849,6 @@ banner
 }
 
 .container .card .slide.slide2 .content p span {
-
   margin: 0;
 
   padding: 5px;
@@ -808,10 +858,8 @@ banner
   color: #ed563b;
 
   font-size: 20px;
-
 }
 .container .card .slide.slide2 .content h3 {
-
   margin: 35px 0 10px 0;
 
   padding: 0;
@@ -821,12 +869,7 @@ banner
   text-align: center;
 
   color: #ed563b;
-
-} 
-
-
-
-
+}
 
 .main-banner .caption h2 em {
   font-style: normal;
@@ -834,8 +877,7 @@ banner
   font-weight: 900;
 }
 
-
-.input-group{
+.input-group {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -866,7 +908,7 @@ features
 
 .feature-item .right-content h4 {
   margin-top: 0px;
-  margin-bottom:  7px;
+  margin-bottom: 7px;
   letter-spacing: 0.25px;
   color: #232d39;
   font-size: 19px;
@@ -917,10 +959,6 @@ subscribe
   margin: 15px 0px 25px 0px;
 }
 
-
-
-
-
 /* 
 ---------------------------------------------
 footer
@@ -945,22 +983,16 @@ footer p a:hover {
   color: #ed563b;
 }
 
-
-
 /* 
 ---------------------------------------------
 responsive
 --------------------------------------------- 
 */
 
-
 @media (max-width: 992px) {
-
   .main-banner .caption h2 {
     font-size: 64px;
   }
-  
-
 }
 
 @media (max-width: 450px) {
@@ -968,4 +1000,3 @@ responsive
     margin-left: 130px;
   }
 }
-
