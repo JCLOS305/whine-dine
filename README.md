@@ -16,3 +16,8 @@ Whine? Dine. is an application designed to help "undecidable millennials" come t
 6. Instructor: Felicia O'Garro
 
 # Link
+
+
+handle errors(drink not found)
+fix mobile version
+fix css and media queries
