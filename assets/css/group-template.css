@@ -278,7 +278,6 @@ body {
 header
 --------------------------------------------- 
 */
-
 .background-header {
   background: rgba(250, 250, 250, 0.99) !important;
   height: 80px !important;
@@ -737,7 +736,10 @@ banner
   color: #fff;
   letter-spacing: 0.5px;
 }
-
+/* slogan styling with span tag */
+.slogan {
+  color: #f9735b;
+}
 .main-banner .caption h2 {
   display: block;
   margin-top: 30px;
@@ -749,24 +751,124 @@ banner
   letter-spacing: 1px;
 }
 
-img:hover {
-  transform: scale(1.1);
-  z-index: 2;
-}
-.animation {
+/* image styling */
+.whineDine {
   border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.5s;
 }
-
-.animation2 {
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.5s;
-}
-
+/* image card containers */
 .containers {
   margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+/* Image reveal text styling */
+.container .card .slide {
+  width: 300px;
+
+  height: 200px;
+
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.container .card .slide.slide1 {
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 1;
+
+  transition: 0.7s;
+
+  transform: translateY(100px);
+}
+.container .card:hover .slide.slide1 {
+  transform: translateY(0px);
+}
+
+.container .card .slide.slide2 {
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  transition: 0.8s;
+
+  transform: translateY(-100px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.container .card:hover .slide.slide2 {
+  transform: translateY(0);
+}
+
+.container .card .slide.slide2::after {
+  content: "";
+
+  position: absolute;
+
+  width: 30px;
+
+  height: 4px;
+
+  bottom: 15px;
+
+  left: 50%;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background: #ed563b;
+}
+
+.container .card .slide.slide2 .content p {
+  margin: 0;
+
+  padding: 5px;
+
+  text-align: center;
+
+  color: white;
+
+  font-size: 20px;
+}
+
+.container .card .slide.slide2 .content p span {
+  margin: 0;
+
+  padding: 5px;
+
+  text-align: center;
+
+  color: #ed563b;
+
+  font-size: 20px;
+}
+.container .card .slide.slide2 .content h3 {
+  margin: 35px 0 10px 0;
+
+  padding: 0;
+
+  font-size: 30px;
+
+  text-align: center;
+
+  color: #ed563b;
 }
 
 .main-banner .caption h2 em {
